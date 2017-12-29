@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		812B4CD21FF67B1100542C41 /* ScanAndInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812B4CD11FF67B1100542C41 /* ScanAndInputViewController.m */; };
 		812B4CD51FF68A0100542C41 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812B4CD41FF68A0100542C41 /* ScanViewController.m */; };
+		812B4CD71FF68F4700542C41 /* ISWBarScanner.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 812B4CD61FF68F4600542C41 /* ISWBarScanner.podspec */; };
 		816859EE1FF6387900DFB38A /* ISWBarScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816859E51FF6387800DFB38A /* ISWBarScanViewController.m */; };
 		816859EF1FF6387900DFB38A /* ISWBarScannerUtilties.m in Sources */ = {isa = PBXBuildFile; fileRef = 816859E71FF6387800DFB38A /* ISWBarScannerUtilties.m */; };
 		816859F01FF6387900DFB38A /* ISWBarScannerDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 816859E81FF6387800DFB38A /* ISWBarScannerDefines.m */; };
@@ -28,6 +29,7 @@
 		812B4CD11FF67B1100542C41 /* ScanAndInputViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanAndInputViewController.m; sourceTree = "<group>"; };
 		812B4CD31FF68A0100542C41 /* ScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
 		812B4CD41FF68A0100542C41 /* ScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		812B4CD61FF68F4600542C41 /* ISWBarScanner.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ISWBarScanner.podspec; sourceTree = "<group>"; };
 		816859E51FF6387800DFB38A /* ISWBarScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISWBarScanViewController.m; sourceTree = "<group>"; };
 		816859E61FF6387800DFB38A /* ISWBarInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISWBarInputViewController.h; sourceTree = "<group>"; };
 		816859E71FF6387800DFB38A /* ISWBarScannerUtilties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISWBarScannerUtilties.m; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		81BCE1201FF5D24F000F669C = {
 			isa = PBXGroup;
 			children = (
+				812B4CD61FF68F4600542C41 /* ISWBarScanner.podspec */,
 				81BCE12B1FF5D24F000F669C /* ISWBarScanner */,
 				81BCE12A1FF5D24F000F669C /* Products */,
 				79E22D9214873A9D9F77DF12 /* Pods */,
@@ -197,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				812B4CD71FF68F4700542C41 /* ISWBarScanner.podspec in Resources */,
 				81BCE1391FF5D24F000F669C /* LaunchScreen.storyboard in Resources */,
 				81BCE1361FF5D24F000F669C /* Assets.xcassets in Resources */,
 				816859F11FF6387900DFB38A /* ISWBarScanner.bundle in Resources */,
