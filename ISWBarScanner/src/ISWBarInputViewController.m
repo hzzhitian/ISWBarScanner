@@ -50,14 +50,12 @@
 
 - (void)setupUI
 {
-    WEAKSELF
-
     manualView = [[UIView alloc] initWithFrame:CGRectZero];
     manualView.backgroundColor     = [UIColor whiteColor];
     [self.view addSubview:manualView];
     [manualView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.leading.trailing.bottom.equalTo(weakSelf.view);
-        make.top.equalTo(weakSelf.view);
+        make.leading.trailing.bottom.equalTo(self.view);
+        make.top.equalTo(self.view);
     }];
 
     UIView *manualBgView = [[UIView alloc] initWithFrame:CGRectZero];

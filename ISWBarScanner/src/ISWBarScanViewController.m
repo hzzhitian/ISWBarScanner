@@ -82,13 +82,11 @@
 
 - (void)setupScanUI
 {
-    WEAKSELF
-
     captureV = [[UIView alloc] initWithFrame:CGRectZero];
     captureV.backgroundColor     = [UIColor whiteColor];
     [self.view addSubview:captureV];
     [captureV mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.leading.trailing.bottom.top.equalTo(weakSelf.view);
+        make.leading.trailing.bottom.top.equalTo(self.view);
     }];
 
     UIView *topBg = [[UIView alloc] initWithFrame:CGRectZero];
@@ -212,7 +210,7 @@
         make.width.equalTo(@110);
         make.top.equalTo(cameraSubTitleLable.mas_bottom).offset(60);
 
-        if([weakSelf showInputModeBtn])
+        if([self showInputModeBtn])
             make.centerX.equalTo(captureV).offset(105);
         else
             make.centerX.equalTo(captureV);
@@ -233,7 +231,7 @@
         make.width.equalTo(@110);
         make.top.equalTo(cameraSubTitleLable.mas_bottom).offset(60);
 
-        if([weakSelf showInputModeBtn])
+        if([self showInputModeBtn])
             make.centerX.equalTo(captureV).offset(105);
         else
             make.centerX.equalTo(captureV);
