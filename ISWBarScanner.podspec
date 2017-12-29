@@ -1,4 +1,4 @@
- Pod::Spec.new do |s
+ Pod::Spec.new do |s|
 
    s.name         = "ISWBarScanner"
    s.version      = "0.0.1"
@@ -16,5 +16,6 @@
    s.source       = { :git => "https://github.com/hzzhitian/ISWBarScanner.git", :tag => "#{s.version}" }
    s.source_files = "ISWBarScanner/src/*.{h,m}"
    s.framework    = "UIKit"
+   s.dependency     'Masonry', '~> 1.0.2'
    s.requires_arc = true
  end
