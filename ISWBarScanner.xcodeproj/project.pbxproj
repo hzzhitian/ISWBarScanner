@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		816859EE1FF6387900DFB38A /* ISWBarScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816859E51FF6387800DFB38A /* ISWBarScanViewController.m */; };
+		816859EF1FF6387900DFB38A /* ISWBarScannerUtilties.m in Sources */ = {isa = PBXBuildFile; fileRef = 816859E71FF6387800DFB38A /* ISWBarScannerUtilties.m */; };
+		816859F01FF6387900DFB38A /* ISWBarScannerDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 816859E81FF6387800DFB38A /* ISWBarScannerDefines.m */; };
+		816859F11FF6387900DFB38A /* ISWBarScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 816859E91FF6387800DFB38A /* ISWBarScanner.bundle */; };
+		816859F21FF6387900DFB38A /* ISWBarInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816859EC1FF6387900DFB38A /* ISWBarInputViewController.m */; };
 		81BCE12E1FF5D24F000F669C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BCE12D1FF5D24F000F669C /* AppDelegate.m */; };
 		81BCE1311FF5D24F000F669C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BCE1301FF5D24F000F669C /* ViewController.m */; };
 		81BCE1341FF5D24F000F669C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BCE1321FF5D24F000F669C /* Main.storyboard */; };
@@ -16,6 +21,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		816859E51FF6387800DFB38A /* ISWBarScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISWBarScanViewController.m; sourceTree = "<group>"; };
+		816859E61FF6387800DFB38A /* ISWBarInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISWBarInputViewController.h; sourceTree = "<group>"; };
+		816859E71FF6387800DFB38A /* ISWBarScannerUtilties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISWBarScannerUtilties.m; sourceTree = "<group>"; };
+		816859E81FF6387800DFB38A /* ISWBarScannerDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISWBarScannerDefines.m; sourceTree = "<group>"; };
+		816859E91FF6387800DFB38A /* ISWBarScanner.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ISWBarScanner.bundle; sourceTree = "<group>"; };
+		816859EA1FF6387800DFB38A /* ISWBarScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISWBarScanViewController.h; sourceTree = "<group>"; };
+		816859EB1FF6387800DFB38A /* ISWBarScannerUtilties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISWBarScannerUtilties.h; sourceTree = "<group>"; };
+		816859EC1FF6387900DFB38A /* ISWBarInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISWBarInputViewController.m; sourceTree = "<group>"; };
+		816859ED1FF6387900DFB38A /* ISWBarScannerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISWBarScannerDefines.h; sourceTree = "<group>"; };
 		81BCE1291FF5D24F000F669C /* ISWBarScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISWBarScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BCE12C1FF5D24F000F669C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		81BCE12D1FF5D24F000F669C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +72,7 @@
 		81BCE12B1FF5D24F000F669C /* ISWBarScanner */ = {
 			isa = PBXGroup;
 			children = (
+				81BCE1421FF5D277000F669C /* src */,
 				81BCE12C1FF5D24F000F669C /* AppDelegate.h */,
 				81BCE12D1FF5D24F000F669C /* AppDelegate.m */,
 				81BCE12F1FF5D24F000F669C /* ViewController.h */,
@@ -69,6 +84,22 @@
 				81BCE13B1FF5D24F000F669C /* main.m */,
 			);
 			path = ISWBarScanner;
+			sourceTree = "<group>";
+		};
+		81BCE1421FF5D277000F669C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				816859E61FF6387800DFB38A /* ISWBarInputViewController.h */,
+				816859EC1FF6387900DFB38A /* ISWBarInputViewController.m */,
+				816859E91FF6387800DFB38A /* ISWBarScanner.bundle */,
+				816859ED1FF6387900DFB38A /* ISWBarScannerDefines.h */,
+				816859E81FF6387800DFB38A /* ISWBarScannerDefines.m */,
+				816859EB1FF6387800DFB38A /* ISWBarScannerUtilties.h */,
+				816859E71FF6387800DFB38A /* ISWBarScannerUtilties.m */,
+				816859EA1FF6387800DFB38A /* ISWBarScanViewController.h */,
+				816859E51FF6387800DFB38A /* ISWBarScanViewController.m */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +162,7 @@
 			files = (
 				81BCE1391FF5D24F000F669C /* LaunchScreen.storyboard in Resources */,
 				81BCE1361FF5D24F000F669C /* Assets.xcassets in Resources */,
+				816859F11FF6387900DFB38A /* ISWBarScanner.bundle in Resources */,
 				81BCE1341FF5D24F000F669C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				81BCE1311FF5D24F000F669C /* ViewController.m in Sources */,
+				816859EF1FF6387900DFB38A /* ISWBarScannerUtilties.m in Sources */,
+				816859EE1FF6387900DFB38A /* ISWBarScanViewController.m in Sources */,
+				816859F01FF6387900DFB38A /* ISWBarScannerDefines.m in Sources */,
+				816859F21FF6387900DFB38A /* ISWBarInputViewController.m in Sources */,
 				81BCE13C1FF5D24F000F669C /* main.m in Sources */,
 				81BCE12E1FF5D24F000F669C /* AppDelegate.m in Sources */,
 			);
