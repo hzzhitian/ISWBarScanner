@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		812B4CD21FF67B1100542C41 /* ScanAndInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812B4CD11FF67B1100542C41 /* ScanAndInputViewController.m */; };
 		816859EE1FF6387900DFB38A /* ISWBarScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816859E51FF6387800DFB38A /* ISWBarScanViewController.m */; };
 		816859EF1FF6387900DFB38A /* ISWBarScannerUtilties.m in Sources */ = {isa = PBXBuildFile; fileRef = 816859E71FF6387800DFB38A /* ISWBarScannerUtilties.m */; };
 		816859F01FF6387900DFB38A /* ISWBarScannerDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 816859E81FF6387800DFB38A /* ISWBarScannerDefines.m */; };
@@ -18,9 +19,12 @@
 		81BCE1361FF5D24F000F669C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BCE1351FF5D24F000F669C /* Assets.xcassets */; };
 		81BCE1391FF5D24F000F669C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BCE1371FF5D24F000F669C /* LaunchScreen.storyboard */; };
 		81BCE13C1FF5D24F000F669C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BCE13B1FF5D24F000F669C /* main.m */; };
+		AD48FDC9A91DE13114D6053B /* libPods-ISWBarScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C4C41BFE238785A85B5168 /* libPods-ISWBarScanner.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		812B4CD01FF67B1100542C41 /* ScanAndInputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanAndInputViewController.h; sourceTree = "<group>"; };
+		812B4CD11FF67B1100542C41 /* ScanAndInputViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanAndInputViewController.m; sourceTree = "<group>"; };
 		816859E51FF6387800DFB38A /* ISWBarScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISWBarScanViewController.m; sourceTree = "<group>"; };
 		816859E61FF6387800DFB38A /* ISWBarInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISWBarInputViewController.h; sourceTree = "<group>"; };
 		816859E71FF6387800DFB38A /* ISWBarScannerUtilties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISWBarScannerUtilties.m; sourceTree = "<group>"; };
@@ -40,6 +44,9 @@
 		81BCE1381FF5D24F000F669C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81BCE13A1FF5D24F000F669C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81BCE13B1FF5D24F000F669C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0C4C41BFE238785A85B5168 /* libPods-ISWBarScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ISWBarScanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98CF101CAAF5FA13A8E774D /* Pods-ISWBarScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISWBarScanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISWBarScanner/Pods-ISWBarScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		E23DC4633C99CD4AA318A7B0 /* Pods-ISWBarScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISWBarScanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISWBarScanner/Pods-ISWBarScanner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +54,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD48FDC9A91DE13114D6053B /* libPods-ISWBarScanner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79E22D9214873A9D9F77DF12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C98CF101CAAF5FA13A8E774D /* Pods-ISWBarScanner.debug.xcconfig */,
+				E23DC4633C99CD4AA318A7B0 /* Pods-ISWBarScanner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		81BCE1201FF5D24F000F669C = {
 			isa = PBXGroup;
 			children = (
 				81BCE12B1FF5D24F000F669C /* ISWBarScanner */,
 				81BCE12A1FF5D24F000F669C /* Products */,
+				79E22D9214873A9D9F77DF12 /* Pods */,
+				D3E8387C4F7AF76E19B0A1D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +101,8 @@
 				81BCE1371FF5D24F000F669C /* LaunchScreen.storyboard */,
 				81BCE13A1FF5D24F000F669C /* Info.plist */,
 				81BCE13B1FF5D24F000F669C /* main.m */,
+				812B4CD01FF67B1100542C41 /* ScanAndInputViewController.h */,
+				812B4CD11FF67B1100542C41 /* ScanAndInputViewController.m */,
 			);
 			path = ISWBarScanner;
 			sourceTree = "<group>";
@@ -102,6 +123,14 @@
 			path = src;
 			sourceTree = "<group>";
 		};
+		D3E8387C4F7AF76E19B0A1D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0C4C41BFE238785A85B5168 /* libPods-ISWBarScanner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81BCE13F1FF5D24F000F669C /* Build configuration list for PBXNativeTarget "ISWBarScanner" */;
 			buildPhases = (
+				B7A5E1903C3366A816CA8775 /* [CP] Check Pods Manifest.lock */,
 				81BCE1251FF5D24F000F669C /* Sources */,
 				81BCE1261FF5D24F000F669C /* Frameworks */,
 				81BCE1271FF5D24F000F669C /* Resources */,
+				90A3F2060565D821430EBF35 /* [CP] Embed Pods Frameworks */,
+				1577B9D5E0CB98F92E88828B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,6 +201,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1577B9D5E0CB98F92E88828B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISWBarScanner/Pods-ISWBarScanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90A3F2060565D821430EBF35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISWBarScanner/Pods-ISWBarScanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7A5E1903C3366A816CA8775 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISWBarScanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81BCE1251FF5D24F000F669C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -177,6 +260,7 @@
 				81BCE1311FF5D24F000F669C /* ViewController.m in Sources */,
 				816859EF1FF6387900DFB38A /* ISWBarScannerUtilties.m in Sources */,
 				816859EE1FF6387900DFB38A /* ISWBarScanViewController.m in Sources */,
+				812B4CD21FF67B1100542C41 /* ScanAndInputViewController.m in Sources */,
 				816859F01FF6387900DFB38A /* ISWBarScannerDefines.m in Sources */,
 				816859F21FF6387900DFB38A /* ISWBarInputViewController.m in Sources */,
 				81BCE13C1FF5D24F000F669C /* main.m in Sources */,
@@ -312,6 +396,7 @@
 		};
 		81BCE1401FF5D24F000F669C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98CF101CAAF5FA13A8E774D /* Pods-ISWBarScanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -326,6 +411,7 @@
 		};
 		81BCE1411FF5D24F000F669C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E23DC4633C99CD4AA318A7B0 /* Pods-ISWBarScanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
