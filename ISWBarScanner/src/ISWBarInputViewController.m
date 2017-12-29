@@ -91,11 +91,11 @@
         inputTextField.placeholder = _placeholdTxt;//请输入充值码数字
  
     confirmBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [confirmBtn setImage:[ISWBarScannerUtilties imageWithColor:[ISWBarScannerUtilties colorWithHexString:ISWBarScannerColorMajorNormal]]
+    [confirmBtn setBackgroundImage:[ISWBarScannerUtilties imageWithColor:[ISWBarScannerUtilties colorWithHexString:ISWBarScannerColorMajorNormal]]
                 forState:UIControlStateNormal];
-    [confirmBtn setImage:[ISWBarScannerUtilties imageWithColor:[ISWBarScannerUtilties colorWithHexString:ISWBarScannerColorMajorHighlight]]
+    [confirmBtn setBackgroundImage:[ISWBarScannerUtilties imageWithColor:[ISWBarScannerUtilties colorWithHexString:ISWBarScannerColorMajorHighlight]]
                 forState:UIControlStateHighlighted];
-    [confirmBtn setImage:[ISWBarScannerUtilties imageWithColor:[ISWBarScannerUtilties colorWithHexString:ISWBarScannerColorLightGray]]
+    [confirmBtn setBackgroundImage:[ISWBarScannerUtilties imageWithColor:[ISWBarScannerUtilties colorWithHexString:ISWBarScannerColorLightGray]]
                 forState:UIControlStateDisabled];
     [ISWBarScannerUtilties setButtonTitleColorForAllStates:confirmBtn color:[UIColor whiteColor]];
     confirmBtn.titleLabel.font = [ISWBarScannerUtilties pingfangFont:17];
