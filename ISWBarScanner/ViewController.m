@@ -12,6 +12,8 @@
 
 #import "ScanAndInputViewController.h"
 
+#import "ScanViewController.h"
+
 @interface ViewController ()
 
 @end
@@ -21,20 +23,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"示例";
+
     UIButton *scanBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    scanBtn.titleLabel.text = @"去扫码";
+    scanBtn.backgroundColor = [UIColor lightGrayColor];
+    [scanBtn setTitle:@"去扫码" forState:UIControlStateNormal];
     [scanBtn addTarget:self
                 action:@selector(scanBtnPressed)
       forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:scanBtn];
     [scanBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.view).offset(20);
+        make.top.equalTo(self.view).offset(100);
         make.centerX.equalTo(self.view);
         make.height.equalTo(@44);
+        make.width.equalTo(@150);
     }];
 
     UIButton *scanAndTxtBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    scanAndTxtBtn.titleLabel.text = @"扫码&手动输入";
+    [scanAndTxtBtn setTitle:@"扫码&手动输入" forState:UIControlStateNormal];
+    scanAndTxtBtn.backgroundColor = [UIColor lightGrayColor];
     [scanAndTxtBtn addTarget:self
                 action:@selector(scanAndTxtBtnPressed)
       forControlEvents:UIControlEventTouchUpInside];
@@ -43,12 +50,14 @@
         make.top.equalTo(scanBtn.mas_bottom).offset(20);
         make.centerX.equalTo(self.view);
         make.height.equalTo(@44);
+        make.width.equalTo(@150);
     }];
 }
 
 - (void)scanBtnPressed
 {
-
+    UIViewController *scanPage = [[ScanViewController alloc] init];
+    [self.navigationController pushViewController:scanPage animated:YES];
 }
 
 - (void)scanAndTxtBtnPressed
