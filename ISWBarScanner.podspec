@@ -15,6 +15,7 @@
 
    s.source       = { :git => "https://github.com/hzzhitian/ISWBarScanner.git", :tag => "#{s.version}" }
    s.source_files = "ISWBarScanner/src/*.{h,m}"
+   s.resource     = 'ISWBarScanner/src/ISWBarScanner.bundle'
    s.framework    = "UIKit"
    s.dependency     'Masonry', '~> 1.0.2'
    s.requires_arc = true
