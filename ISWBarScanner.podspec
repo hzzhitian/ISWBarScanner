@@ -1,7 +1,7 @@
  Pod::Spec.new do |s|
 
    s.name         = "ISWBarScanner"
-   s.version      = "0.0.1"
+   s.version      = "0.0.2"
    s.summary      = "扫二维码获取结果"
 
    s.description  = <<-DESC
