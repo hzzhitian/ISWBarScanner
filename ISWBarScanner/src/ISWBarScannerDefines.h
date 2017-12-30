@@ -14,6 +14,6 @@ extern NSString *const ISWBarScannerColorMajorHighlight;
 extern NSString *const ISWBarScannerColorDarkGray;
 extern NSString *const ISWBarScannerColorLightGray;
 
-@interface ISWBarScannerDefines : NSObject
+typedef void(^ISWBarScannerResultFound)(NSString *rlt);
 
-@end
+typedef void(^ISWBarScannerInputModeChanged)(void);

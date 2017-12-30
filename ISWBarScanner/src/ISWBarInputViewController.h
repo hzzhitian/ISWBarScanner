@@ -8,12 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+#import "ISWBarScannerDefines.h"
+
 @interface ISWBarInputViewController : UIViewController
 
 @property (nonatomic,assign) BOOL hidden;
 
 @property (nonatomic,strong) NSString *placeholdTxt;
 
-@property (nonatomic,strong) void (^resultInput) (NSString *str);
+@property (nonatomic,strong) ISWBarScannerResultFound resultInput;
 
 @end

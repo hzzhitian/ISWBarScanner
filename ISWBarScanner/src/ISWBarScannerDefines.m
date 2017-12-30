@@ -15,7 +15,3 @@ NSString *const ISWBarScannerColorMajorHighlight = @"#EF856F";
 
 NSString *const ISWBarScannerColorDarkGray       = @"#333333";
 NSString *const ISWBarScannerColorLightGray      = @"#cccccc";
-
-@implementation ISWBarScannerDefines
-
-@end

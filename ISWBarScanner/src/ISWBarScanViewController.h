@@ -7,13 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AVFoundation/AVFoundation.h>
 
-@interface ISWBarScanViewController : UIViewController<AVCaptureMetadataOutputObjectsDelegate>
+#import "ISWBarScannerDefines.h"
 
-@property (nonatomic,strong) void (^inputModeChanged) ();
+@interface ISWBarScanViewController : UIViewController
 
-@property (nonatomic,strong) void (^resultScaned) (NSString *str);
+@property (nonatomic,strong) ISWBarScannerInputModeChanged inputModeChanged;
+
+@property (nonatomic,strong) ISWBarScannerResultFound resultScaned;
 
 @property (nonatomic,assign) BOOL hidden;
 

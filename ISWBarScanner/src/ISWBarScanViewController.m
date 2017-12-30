@@ -8,13 +8,12 @@
 
 #import "ISWBarScanViewController.h"
 
-#import <MobileCoreServices/MobileCoreServices.h>
+#import <AVFoundation/AVFoundation.h>
 #import "Masonry.h"
 
 #import "ISWBarScannerUtilties.h"
-#import "ISWBarScannerDefines.h"
 
-@interface ISWBarScanViewController ()
+@interface ISWBarScanViewController () <AVCaptureMetadataOutputObjectsDelegate>
 {
     UIView           *captureV;
 
