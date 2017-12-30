@@ -10,6 +10,10 @@
 		812B4CD21FF67B1100542C41 /* ScanAndInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812B4CD11FF67B1100542C41 /* ScanAndInputViewController.m */; };
 		812B4CD51FF68A0100542C41 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812B4CD41FF68A0100542C41 /* ScanViewController.m */; };
 		812B4CD71FF68F4700542C41 /* ISWBarScanner.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 812B4CD61FF68F4600542C41 /* ISWBarScanner.podspec */; };
+		812B4CE61FF7382400542C41 /* 2017-12-30 105102.png in Resources */ = {isa = PBXBuildFile; fileRef = 812B4CE21FF7382400542C41 /* 2017-12-30 105102.png */; };
+		812B4CE71FF7382400542C41 /* 2017-12-30 105055.png in Resources */ = {isa = PBXBuildFile; fileRef = 812B4CE31FF7382400542C41 /* 2017-12-30 105055.png */; };
+		812B4CE81FF7382400542C41 /* 2017-12-30 105123.png in Resources */ = {isa = PBXBuildFile; fileRef = 812B4CE41FF7382400542C41 /* 2017-12-30 105123.png */; };
+		812B4CE91FF7382400542C41 /* 2017-12-30 105046.png in Resources */ = {isa = PBXBuildFile; fileRef = 812B4CE51FF7382400542C41 /* 2017-12-30 105046.png */; };
 		816859EE1FF6387900DFB38A /* ISWBarScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816859E51FF6387800DFB38A /* ISWBarScanViewController.m */; };
 		816859EF1FF6387900DFB38A /* ISWBarScannerUtilties.m in Sources */ = {isa = PBXBuildFile; fileRef = 816859E71FF6387800DFB38A /* ISWBarScannerUtilties.m */; };
 		816859F01FF6387900DFB38A /* ISWBarScannerDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 816859E81FF6387800DFB38A /* ISWBarScannerDefines.m */; };
@@ -30,6 +34,10 @@
 		812B4CD31FF68A0100542C41 /* ScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
 		812B4CD41FF68A0100542C41 /* ScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
 		812B4CD61FF68F4600542C41 /* ISWBarScanner.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ISWBarScanner.podspec; sourceTree = "<group>"; };
+		812B4CE21FF7382400542C41 /* 2017-12-30 105102.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2017-12-30 105102.png"; sourceTree = "<group>"; };
+		812B4CE31FF7382400542C41 /* 2017-12-30 105055.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2017-12-30 105055.png"; sourceTree = "<group>"; };
+		812B4CE41FF7382400542C41 /* 2017-12-30 105123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2017-12-30 105123.png"; sourceTree = "<group>"; };
+		812B4CE51FF7382400542C41 /* 2017-12-30 105046.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2017-12-30 105046.png"; sourceTree = "<group>"; };
 		816859E51FF6387800DFB38A /* ISWBarScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISWBarScanViewController.m; sourceTree = "<group>"; };
 		816859E61FF6387800DFB38A /* ISWBarInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISWBarInputViewController.h; sourceTree = "<group>"; };
 		816859E71FF6387800DFB38A /* ISWBarScannerUtilties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISWBarScannerUtilties.m; sourceTree = "<group>"; };
@@ -75,9 +83,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		812B4CE11FF7382400542C41 /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				812B4CE21FF7382400542C41 /* 2017-12-30 105102.png */,
+				812B4CE31FF7382400542C41 /* 2017-12-30 105055.png */,
+				812B4CE41FF7382400542C41 /* 2017-12-30 105123.png */,
+				812B4CE51FF7382400542C41 /* 2017-12-30 105046.png */,
+			);
+			path = ScreenShot;
+			sourceTree = "<group>";
+		};
 		81BCE1201FF5D24F000F669C = {
 			isa = PBXGroup;
 			children = (
+				812B4CE11FF7382400542C41 /* ScreenShot */,
 				812B4CD61FF68F4600542C41 /* ISWBarScanner.podspec */,
 				81BCE12B1FF5D24F000F669C /* ISWBarScanner */,
 				81BCE12A1FF5D24F000F669C /* Products */,
@@ -202,9 +222,13 @@
 			files = (
 				812B4CD71FF68F4700542C41 /* ISWBarScanner.podspec in Resources */,
 				81BCE1391FF5D24F000F669C /* LaunchScreen.storyboard in Resources */,
+				812B4CE71FF7382400542C41 /* 2017-12-30 105055.png in Resources */,
 				81BCE1361FF5D24F000F669C /* Assets.xcassets in Resources */,
 				816859F11FF6387900DFB38A /* ISWBarScanner.bundle in Resources */,
 				81BCE1341FF5D24F000F669C /* Main.storyboard in Resources */,
+				812B4CE81FF7382400542C41 /* 2017-12-30 105123.png in Resources */,
+				812B4CE61FF7382400542C41 /* 2017-12-30 105102.png in Resources */,
+				812B4CE91FF7382400542C41 /* 2017-12-30 105046.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
