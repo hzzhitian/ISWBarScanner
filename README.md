@@ -5,4 +5,7 @@
 4. 使用Mansory进行布局。
 
 # 如图：
-<img src="https://github.com/hzzhitian/ISWBarScanner/blob/master/ScreenShot/2017-12-30%20105046.png" width="320"><br/>
+<img src="https://github.com/hzzhitian/ISWBarScanner/blob/master/ScreenShot/2017-12-30%20105046.png" width="320">
+<img src="https://github.com/hzzhitian/ISWBarScanner/blob/master/ScreenShot/2017-12-30%20105055.png" width="320">
+<img src="https://github.com/hzzhitian/ISWBarScanner/blob/master/ScreenShot/2017-12-30%20105102.png" width="320">
+<img src="https://github.com/hzzhitian/ISWBarScanner/blob/master/ScreenShot/2017-12-30%20105123.png" width="320">
